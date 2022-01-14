@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.container{
+	position: relative;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.container .icon path{
+	fill: transparent;
+	stroke: 10;
+	stroke: #31e8ff;
+}
+body{
+	background: #06181f;
+}
+
+h1{
+	font-family: 'Neonderthaw', cursive;
+	font-size: 40px;
+	color:#31e8ff ;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+
+@media screen and (max-width:800px){
+.container{
+	width: 150px;
+	
+
+}
+} 
+
+.container .icon.discord path{
+	stroke-dasharray: 250;
+	stroke-dashoffset: 0;
+}
+.container .icon.discord:hover path{
+	animation: animate-discord 2s linear forwards;
+}
+@keyframes animate-discord{
+	0%{
+		stroke-dashoffset: 0;
+	}
+	40%{
+		stroke-dashoffset: 250;
+	}
+	80%{
+		stroke-dashoffset: 500;
+		fill: transparent;
+	}
+	100%{
+		stroke-dashoffset: 0;
+		fill: #31e8ff;
+		stroke: #white;
+	}
+
+}
+
+
+
+
+.container .icon.instagram path{
+	stroke-dasharray: 250;
+	stroke-dashoffset: 0;
+}
+.container .icon.instagram:hover path{
+	animation: animate-instagram 2s linear forwards;
+}
+@keyframes animate-instagram{
+	0%{
+		stroke-dashoffset: 0;
+	}
+	40%{
+		stroke-dashoffset: 250;
+	}
+	80%{
+		stroke-dashoffset: 500;
+		fill: transparent;
+	}
+	100%{
+		stroke-dashoffset: 0;
+		fill: #31e8ff;
+		stroke: white;
+	}
+
+}
+
+
+
+
+
+.container .icon.vk path{
+	stroke-dasharray: 250;
+	stroke-dashoffset: 0;
+}
+.container .icon.vk:hover path{
+	animation: animate-vk 2s linear forwards;
+}
+@keyframes animate-vk{
+	0%{
+		stroke-dashoffset: 0;
+	}
+	40%{
+		stroke-dashoffset: 250;
+	}
+	80%{
+		stroke-dashoffset: 500;
+		fill: transparent;
+	}
+	100%{
+		stroke-dashoffset: 0;
+		fill: #31e8ff;
+		stroke: white;
+
+	}
+
+}
+
+
+
+
+
+
+
+.container .icon.telegram path{
+	stroke-dasharray: 250;
+	stroke-dashoffset: 0;
+}
+.container .icon.telegram:hover path{
+	animation: animate-telegram 2s linear forwards;
+}
+@keyframes animate-telegram{
+	0%{
+		stroke-dashoffset: 0;
+	}
+	40%{
+		stroke-dashoffset: 250;
+	}
+	80%{
+		stroke-dashoffset: 500;
+		fill: transparent;
+	}
+	100%{
+		stroke-dashoffset: 0;
+		fill: #31e8ff;
+		stroke: white;
+	}
+
+}
+
+
+
+
+
+
+.container .icon.email path{
+	stroke-dasharray: 250;
+	stroke-dashoffset: 0;
+}
+.container .icon.email:hover path{
+	animation: animate-email 2s linear forwards;
+}
+@keyframes animate-email{
+	0%{
+		stroke-dashoffset: 0;
+	}
+	40%{
+		stroke-dashoffset: 250;
+	}
+	80%{
+		stroke-dashoffset: 500;
+		fill: transparent;
+	}
+	100%{
+		stroke-dashoffset: 0;
+		fill: #31e8ff;
+		stroke: white;
+	}
+
+}
+
